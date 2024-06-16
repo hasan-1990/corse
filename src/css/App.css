@@ -1,0 +1,49 @@
+body{
+    direction: rtl;
+    padding: 50px;
+}
+input[type= "text"]::placeholder,
+input[type= "number"]::placeholder,
+input[type= "email"]::placeholder,
+.form-control
+{
+    color: white;
+    font-size: larger;
+    
+    border-color: #bd93f9;
+  
+    
+}
+.navpartext{
+    color: white;
+    font-size: larger;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all;
+    -moz-transition: all;
+    -ms-transition: all;
+    -o-transition: all;
+    font-size: large;
+    font-weight: bold;
+    justify-content: space-evenly;
+
+  
+    
+}
+.divclass{
+    background-color: #282a36;
+    color: white;
+    font-size: larger;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 0 10px #bd93f9;
+    justify-content: space-evenly;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all;
+    -moz-transition: all;
+    -ms-transition: all;
+    -o-transition: all;
+    box-shadow: #282a36;
+}
